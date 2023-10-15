@@ -1,0 +1,39 @@
+body {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  list-style: none;
+  background-color: aqua;
+  padding: 15px;
+  margin: 0;
+  display: flex;
+  color: aliceblue;
+  justify-content: flex-end;
+}
+.navbar-item {
+  margin-right: 10px;
+}
+.navbar-item a {
+  text-decoration: none;
+  color: blueviolet;
+}
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  position: fixed; /* Atur posisi footer */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: beige; /* Sesuaikan warna latar belakang dengan preferensimu */
+}
+.message-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+}
